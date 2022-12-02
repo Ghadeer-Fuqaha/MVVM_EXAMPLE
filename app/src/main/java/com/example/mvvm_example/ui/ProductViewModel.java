@@ -10,7 +10,7 @@ import com.example.mvvm_example.pojo.Model;
 public class ProductViewModel extends ViewModel {
 
 
-    MutableLiveData<String> productNameMutableLiveData = new MutableLiveData<>();
+   public MutableLiveData<String> productNameMutableLiveData = new MutableLiveData<>();
 
     public void getProductName(){
         String productName = getProductFromDatabase().getName();
